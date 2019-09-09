@@ -1,1 +1,0 @@
-package chap01import spock.lang.Specificationclass TicketOfficeSpecification extends Specification {    def "test"() {        expect:        1 == 1    }}

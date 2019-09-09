@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7835fcb-0d05-44a2-810e-0d611895e260" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/chap01/Audience.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/chap01/Audience.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/chap01/Theater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/chap01/Theater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/chap01/TicketSeller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/chap01/TicketSeller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/chap01/TicketOfficeSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/chap01/TicketOfficeSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap01/Audience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01/Audience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap01/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01/Theater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap01/TicketSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01/TicketSeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chap01/TicketOfficeSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap01/TicketOfficeSpecification.groovy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,47 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TicketOfficeSpecification.test">
-    <configuration name="TicketOfficeSpecification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;chap01.TicketOfficeSpecification&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TicketOfficeSpecification.?" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;chap01.TicketOfficeSpecification.?&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TicketOfficeSpecification.초대권을 갖고 있는 사람">
     <configuration name="TicketOfficeSpecification.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,6 +156,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketOfficeSpecification.초대권을 갖고 있는 사람" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Object.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap01" />
+      <option name="MAIN_CLASS_NAME" value="chap01.TicketOfficeSpecification" />
+      <option name="METHOD_NAME" value="초대권을 갖고 있는 사람" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketOfficeSpecification.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Object.test" />
       <extension name="coverage">
@@ -207,6 +188,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketOfficeSpecification.theater 입장 test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Object.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap01" />
+      <option name="MAIN_CLASS_NAME" value="chap01.TicketOfficeSpecification" />
+      <option name="METHOD_NAME" value="theater 입장 test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoListApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="owl.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.todolist.TodoListApplication" />
@@ -215,20 +212,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.TicketOfficeSpecification" />
-      <item itemvalue="Gradle.TicketOfficeSpecification.?" />
       <item itemvalue="Gradle.TicketOfficeSpecification.test" />
       <item itemvalue="JUnit.TicketOfficeSpecification.test" />
       <item itemvalue="JUnit.TicketOfficeSpecification" />
       <item itemvalue="Spring Boot.TodoListApplication" />
+      <item itemvalue="JUnit.TicketOfficeSpecification.theater 입장 test" />
+      <item itemvalue="JUnit.TicketOfficeSpecification.초대권을 갖고 있는 사람" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketOfficeSpecification.초대권을 갖고 있는 사람" />
+        <item itemvalue="JUnit.TicketOfficeSpecification.theater 입장 test" />
         <item itemvalue="JUnit.TicketOfficeSpecification.test" />
         <item itemvalue="JUnit.TicketOfficeSpecification" />
         <item itemvalue="Gradle.TicketOfficeSpecification.test" />
-        <item itemvalue="Gradle.TicketOfficeSpecification" />
-        <item itemvalue="Gradle.TicketOfficeSpecification.?" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +250,7 @@
       <workItem from="1568007908960" duration="28000" />
       <workItem from="1568007946029" duration="40000" />
       <workItem from="1568008068739" duration="231000" />
-      <workItem from="1568021748249" duration="351000" />
+      <workItem from="1568021748249" duration="1209000" />
     </task>
     <task id="LOCAL-00001" summary="setting spock">
       <created>1567764218946</created>
@@ -290,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568008269148</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Write Test Case">
+      <created>1568022140807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568022140807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +316,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setting spock" />
     <MESSAGE value="update IDE option .." />
-    <option name="LAST_COMMIT_MESSAGE" value="update IDE option .." />
+    <MESSAGE value="Write Test Case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write Test Case" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/chap01/Theater.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Object$TicketOfficeSpecification____.ic" NAME="TicketOfficeSpecification.초대권을 갖고 있는 사람 Coverage Results" MODIFIED="1568022983749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>chap01.*</FILTER>
+    </SUITE>
   </component>
 </project>

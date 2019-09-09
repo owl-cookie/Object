@@ -50,3 +50,17 @@ P
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+K
+.gradle/5.2.1/gc.properties,7/b/7b75c69449d10199b2abb505dc3dcb548478e60d
+[
++build/reports/tests/test/css/base-style.css,d/9/d9a3e8ca011500a21b32e71e65213d18ab3f5876
+V
+&build/reports/tests/test/css/style.css,d/6/d67b5d9d66151bbb2bcc7d46eea3cc8da9b817c8
+U
+%build/reports/tests/test/js/report.js,f/9/f9923bc0441afde5cada732d7bd5b5e4419e4da1
+S
+#build/reports/tests/test/index.html,a/9/a925c8b8a99ce70bdfadf43619e26e976eb36ce4
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+;
+gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3

@@ -2,108 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7835fcb-0d05-44a2-810e-0d611895e260" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__asm_asm_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cglib_cglib_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_spockframework_spock_core_1_0_groovy_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Desktop.Object.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Object.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Object.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/024053887db592715f3650e63573c91ade534847" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ec89c5a97cfa9274c878e7c1f93ed3d232838ce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2fb954c2688499f1dab42ef094412849e66d26ef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3fa1ed8f1b4e1b9c233b6023870998c667d79f5c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bed57f3cb54d9a0c0303b700bd24a2641a0cd95" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4fae4bd29a5da69594d4087990efbd616812f7b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50bf4193d17ccac399c3e6e19185282543f6c65f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b5caa19fc61bb077423023323e686987bf1fa4e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68dc77a2e376d6f12a3548d391456ec5ec337396" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b89e1f8e29c115064730c854cdf33da2c2e28d4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7aea6c8551be9f04aca531f7aab042320783532b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d11830400a6f0abe25d084d24ade913b31d9f46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83815040062a15d1d304a55b005c0f2ab8f56fc7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d72b67354766b517a02c830f5cd5b8bbb03cd15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8dc09e61dcb51a6cd7339a73cbb314283eb2c7a9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99c250bcc5ccc00dbd896315b76d6d5896ad85f6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abaa93754be079cb808b73a71196eda7558ea8cb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b55d1edb0368ea1bc0608510d1f4e6a390e37ffc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e569dc6407a1e640105e78ed0d698e1925929ad5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0ce9208a20ebd9d1f763074c5870c3f31ef115a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2b1741c9bb2eea3f8b6c482d07191db0c1c044e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc185b547febedc42eef85aaa629102fee0b3b96" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/chap01/Audience.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/chap01/Bag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/chap01/Invitation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/chap01/Theater.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/chap01/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/chap01/TicketOffice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/chap01/TicketSeller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/chap01/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_3086184082387343149_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chap01/Audience.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chap01/Bag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chap01/Invitation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chap01/Theater.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chap01/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chap01/TicketOffice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chap01/TicketSeller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/chap01/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/chap01/TicketOfficeSpecification.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap01/Audience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap01/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap01/Invitation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap01/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap01/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap01/TicketOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap01/TicketSeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap01/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap01/TicketOfficeSpecification.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/chap01/TicketOfficeSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/chap01/TicketOfficeSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chap01/TicketOfficeSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap01/TicketOfficeSpecification.groovy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -350,7 +252,8 @@
       <workItem from="1568007879404" duration="16000" />
       <workItem from="1568007908960" duration="28000" />
       <workItem from="1568007946029" duration="40000" />
-      <workItem from="1568008068739" duration="131000" />
+      <workItem from="1568008068739" duration="231000" />
+      <workItem from="1568021748249" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="setting spock">
       <created>1567764218946</created>
@@ -373,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568007733944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update IDE option ..">
+      <created>1568008222420</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568008222420</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update IDE option ..">
+      <created>1568008269148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568008269148</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Desktop.Object.iml" filepath="$PROJECT_DIR$/.idea/modules/Desktop.Object.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object.iml" filepath="$PROJECT_DIR$/Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Object-book.iml" filepath="$PROJECT_DIR$/.idea/Object-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Object-book.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Object-book.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Object-book.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Object-book.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Object.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Object.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Object.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Object.test.iml" />
     </modules>

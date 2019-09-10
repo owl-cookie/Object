@@ -23,7 +23,7 @@ public class Bag {
 		return ticket != null;
 	}
 
-	public void minusAmount(long amount) {
+	private void minusAmount(long amount) {
 		this.amount -= amount;
 	}
 
@@ -43,7 +43,17 @@ public class Bag {
 		return ticket;
 	}
 
-	public void setTicket(Ticket ticket) {
+	private void setTicket(Ticket ticket) {
 		this.ticket = ticket;
+	}
+
+	public long hold(Ticket ticket) {
+		if (this.hasInvitation()) {
+			this.setTicket(ticket);
+			return 0L;
+		}
+		this.minusAmount(ticket.getFee());
+		this.setTicket(ticket);
+		return ticket.getFee();
 	}
 }

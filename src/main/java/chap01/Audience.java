@@ -4,25 +4,23 @@ public class Audience {
 
 	private Bag bag;
 
-
 	public Audience(Bag bag) {
 		this.bag = bag;
 	}
 
-	public boolean hasInvitation(){
-		return bag.hasInvitation();
-	}
-
-	public void receiveTicket(Ticket ticket){
-		bag.setTicket(ticket);
-	}
-
-	public Bag getBag() {
+	// for Test
+	protected Bag getBag() {
 		return bag;
 	}
 
-	public void pay(long fee){
-		bag.minusAmount(fee);
-	}
+	public long buy(Ticket ticket) {
+		if (bag.hasInvitation()) {
+			bag.setTicket(ticket);
+			return 0L;
+		}
+		bag.minusAmount(ticket.getFee());
+		bag.setTicket(ticket);
+		return ticket.getFee();
 
+	}
 }

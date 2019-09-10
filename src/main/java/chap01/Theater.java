@@ -9,10 +9,6 @@ public class Theater {
 	}
 
 	public void enter(Audience audience) {
-		if (audience.hasInvitation()) {
-			ticketSeller.exchange(audience);
-			return;
-		}
 		ticketSeller.sellTo(audience);
 	}
 }

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7835fcb-0d05-44a2-810e-0d611895e260" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2b1741c9bb2eea3f8b6c482d07191db0c1c044e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2b1741c9bb2eea3f8b6c482d07191db0c1c044e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/chap01/Audience.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/chap01/Audience.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/chap01/Theater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/chap01/Theater.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/chap01/TicketSeller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/chap01/TicketSeller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/chap01/TicketOfficeSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/chap01/TicketOfficeSpecification.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chap01/Audience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01/Audience.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chap01/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01/Theater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chap01/TicketSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01/TicketSeller.java" afterDir="false" />
@@ -120,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TicketOfficeSpecification.초대권을 갖고 있는 사람">
+  <component name="RunManager" selected="JUnit.TicketOfficeSpecification">
     <configuration name="TicketOfficeSpecification.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,16 +215,16 @@
       <item itemvalue="Gradle.TicketOfficeSpecification.test" />
       <item itemvalue="JUnit.TicketOfficeSpecification.test" />
       <item itemvalue="JUnit.TicketOfficeSpecification" />
-      <item itemvalue="Spring Boot.TodoListApplication" />
       <item itemvalue="JUnit.TicketOfficeSpecification.theater 입장 test" />
       <item itemvalue="JUnit.TicketOfficeSpecification.초대권을 갖고 있는 사람" />
+      <item itemvalue="Spring Boot.TodoListApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketOfficeSpecification" />
         <item itemvalue="JUnit.TicketOfficeSpecification.초대권을 갖고 있는 사람" />
         <item itemvalue="JUnit.TicketOfficeSpecification.theater 입장 test" />
         <item itemvalue="JUnit.TicketOfficeSpecification.test" />
-        <item itemvalue="JUnit.TicketOfficeSpecification" />
         <item itemvalue="Gradle.TicketOfficeSpecification.test" />
       </list>
     </recent_temporary>
@@ -250,7 +250,8 @@
       <workItem from="1568007908960" duration="28000" />
       <workItem from="1568007946029" duration="40000" />
       <workItem from="1568008068739" duration="231000" />
-      <workItem from="1568021748249" duration="1209000" />
+      <workItem from="1568021748249" duration="1252000" />
+      <workItem from="1568075767585" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="setting spock">
       <created>1567764218946</created>
@@ -294,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568022140807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Refactorying theater class &#10;&#10;책 보기전 수정">
+      <created>1568023058243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568023058243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,18 +325,8 @@
     <MESSAGE value="setting spock" />
     <MESSAGE value="update IDE option .." />
     <MESSAGE value="Write Test Case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Write Test Case" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/chap01/Theater.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refactorying theater class &#10;&#10;책 보기전 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorying theater class &#10;&#10;책 보기전 수정" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Object$TicketOfficeSpecification____.ic" NAME="TicketOfficeSpecification.초대권을 갖고 있는 사람 Coverage Results" MODIFIED="1568022983749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -18,20 +18,23 @@ public class DiscountCondition {
     private LocalTime startTime;
     private LocalTime endTime;
 
-    public boolean isDiscountable(DayOfWeek dayOfWeek, LocalTime time) {
-        if (discountConditionType != DiscountConditionType.PERIOD) {
-            throw new IllegalArgumentException();
+    public boolean isDiscountable(Screening screening) {
+        if (discountConditionType == DiscountConditionType.PERIOD) {
+            return isPeriodDiscountable(screening);
+        } else if (discountConditionType == DiscountConditionType.SEQUENCE) {
+            return isSequenceDiscountable(screening);
         }
-        return this.dayOfWeek.equals(dayOfWeek) &&
-                this.startTime.compareTo(time) <= 0 &&
-                this.endTime.compareTo(time) >= 0;
+        return false;
     }
 
-    public boolean isDiscountable(int sequence) {
-        if (discountConditionType != DiscountConditionType.SEQUENCE) {
-            throw new IllegalArgumentException();
-        }
-        return this.sequence == sequence;
+    private boolean isSequenceDiscountable(Screening screening) {
+        return sequence == screening.getSequence();
+    }
+
+    private boolean isPeriodDiscountable(Screening screening) {
+        return screening.getWhenScreened().getDayOfWeek().equals(dayOfWeek)
+                && startTime.compareTo(screening.getWhenScreened().toLocalTime()) <= 0
+                && endTime.compareTo(screening.getWhenScreened().toLocalTime()) >= 0;
     }
 
 }

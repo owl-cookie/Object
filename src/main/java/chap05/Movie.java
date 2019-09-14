@@ -18,4 +18,25 @@ public class Movie {
     private Money discountAmount;
     private double discountPercent;
 
+
+    public Money calculateAmountFee(Screening screening, int audienceCount) {
+        if (isDiscountable(screening)) {
+            return fee.minus(calculateDiscountFee()).times(audienceCount);
+        }
+        return fee;
+    }
+
+    private Money calculateDiscountFee() {
+        if (movieType == MovieType.AMOUNT_DISCOUNT) {
+            return discountAmount;
+        } else if (movieType == MovieType.PERCENT_DISCOUNT) {
+            return fee.times(discountPercent);
+        }
+        return Money.ZERO;
+    }
+
+    private boolean isDiscountable(Screening screening) {
+        return discountConditions.stream()
+                .anyMatch(discountCondition -> discountCondition.isDiscountable(screening));
+    }
 }

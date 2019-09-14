@@ -1,10 +1,11 @@
 package chap05;
 
+import chap05.discount.Discount;
+import chap05.discountcondition.DiscountCondition;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.time.Duration;
-import java.util.List;
 
 @Getter
 @Setter
@@ -12,11 +13,9 @@ public class Movie {
     private String titile;
     private Duration runningTime;
     private Money fee;
-    private List<DiscountCondition> discountConditions;
+    private DiscountCondition discountConditions;
 
-    private MovieType movieType;
-    private Money discountAmount;
-    private double discountPercent;
+    private Discount discount;
 
 
     public Money calculateAmountFee(Screening screening, int audienceCount) {
@@ -27,16 +26,10 @@ public class Movie {
     }
 
     private Money calculateDiscountFee() {
-        if (movieType == MovieType.AMOUNT_DISCOUNT) {
-            return discountAmount;
-        } else if (movieType == MovieType.PERCENT_DISCOUNT) {
-            return fee.times(discountPercent);
-        }
-        return Money.ZERO;
+        return discount.calculateDiscount();
     }
 
     private boolean isDiscountable(Screening screening) {
-        return discountConditions.stream()
-                .anyMatch(discountCondition -> discountCondition.isDiscountable(screening));
+        return discountConditions.isDiscountable(screening);
     }
 }

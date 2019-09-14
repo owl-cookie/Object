@@ -14,7 +14,6 @@ public class Screening {
 
 
     public Reservation reserve(Customer customer, int audienceCount) {
-
         Money fee = movie.calculateAmountFee(this, audienceCount);
 
         return new Reservation(customer, this, fee, audienceCount);

@@ -1,6 +1,5 @@
 package chap05.discountcondition;
 
-import chap05.DiscountConditionType;
 import chap05.Money;
 import chap05.Screening;
 import lombok.Getter;
@@ -10,19 +9,13 @@ import lombok.Setter;
 @Setter
 public class SequenceDiscountCondition extends DiscountCondition {
 
-    private DiscountConditionType discountConditionType;
-
     private int sequence;
 
-    public SequenceDiscountCondition(DiscountConditionType discountConditionType, int sequence) {
-        super(discountConditionType);
+    public SequenceDiscountCondition(int sequence) {
         this.sequence = sequence;
     }
 
     public boolean isDiscountable(Screening screening) {
-        if (discountConditionType != DiscountConditionType.SEQUENCE) {
-            throw new IllegalArgumentException();
-        }
         return isSequenceDiscountable(screening);
     }
 

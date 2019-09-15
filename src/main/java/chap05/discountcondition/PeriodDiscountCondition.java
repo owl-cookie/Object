@@ -1,6 +1,5 @@
 package chap05.discountcondition;
 
-import chap05.DiscountConditionType;
 import chap05.Money;
 import chap05.Screening;
 import lombok.Getter;
@@ -13,24 +12,18 @@ import java.time.LocalTime;
 @Setter
 public class PeriodDiscountCondition extends DiscountCondition {
 
-    private DiscountConditionType discountConditionType;
-
     private DayOfWeek dayOfWeek;
     private LocalTime startTime;
     private LocalTime endTime;
 
 
-    public PeriodDiscountCondition(DiscountConditionType discountConditionType, DayOfWeek dayOfWeek, LocalTime startTime, LocalTime endTime) {
-        super(discountConditionType);
+    public PeriodDiscountCondition(DayOfWeek dayOfWeek, LocalTime startTime, LocalTime endTime) {
         this.dayOfWeek = dayOfWeek;
         this.startTime = startTime;
         this.endTime = endTime;
     }
 
     public boolean isDiscountable(Screening screening) {
-        if (discountConditionType != DiscountConditionType.PERIOD) {
-            throw new IllegalArgumentException();
-        }
         return isPeriodDiscountable(screening);
     }
 

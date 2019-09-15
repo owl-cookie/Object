@@ -13,14 +13,16 @@ public class Event {
     private Duration duration;
 
     public boolean isSatisfied(RecurringSchedule schedule) {
-        if (from.getDayOfWeek() != schedule.getDayOfWeek() || !from.toLocalTime().equals(schedule.getFrom()) || !duration.equals(schedule.getDuration())) {
-            reschedule(schedule);
-            return false;
-        }
-        return true;
+        return isSameEventTime(schedule);
     }
 
-    private void reschedule(RecurringSchedule schedule) {
+    private boolean isSameEventTime(RecurringSchedule schedule) {
+        return from.getDayOfWeek() == schedule.getDayOfWeek()
+                && from.toLocalTime().equals(schedule.getFrom())
+                && duration.equals(schedule.getDuration());
+    }
+
+    public void reschedule(RecurringSchedule schedule) {
         from = LocalDateTime.of(from.toLocalDate().plusDays(daysDistance(schedule)), schedule.getFrom());
         duration = schedule.getDuration();
     }

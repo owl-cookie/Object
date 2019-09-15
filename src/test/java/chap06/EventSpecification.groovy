@@ -38,7 +38,8 @@ class EventSpecification extends Specification {
 
         expect:
         !meeting.isSatisfied(recurringEvent)
-        !meeting.isSatisfied(recurringEvent)
+        meeting.reschedule(recurringEvent)
+        meeting.isSatisfied(recurringEvent)
 
     }
 }

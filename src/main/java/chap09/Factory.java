@@ -1,0 +1,1 @@
+package chap09;import chap02.Money;import chap02.Movie;import chap02.discount.policy.AmountDiscountPolicy;import java.time.Duration;public class Factory {	public Movie createAvataMoive(){		return new Movie("아바타", Duration.ofMillis(120), Money.wons(10000),			new AmountDiscountPolicy(Money.wons(3000), screening -> true , screening -> false ));	}}

@@ -1,0 +1,1 @@
+package chap09;import chap02.Money;import chap02.Movie;import lombok.AllArgsConstructor;@AllArgsConstructorpublic class Client {	private Factory factory;	public Money getAvataFee(){		Movie avata = factory.createAvataMoive();		return avata.getFee();	}}

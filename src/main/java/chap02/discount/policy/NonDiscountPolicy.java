@@ -1,0 +1,1 @@
+package chap02.discount.policy;import chap02.Money;import chap02.Screening;import chap02.discount.condition.DiscountCondition;public class NonDiscountPolicy extends DiscountPolicy {	public NonDiscountPolicy(DiscountCondition... conditions) {		//super(conditions);	}	@Override protected Money getDiscountAmount(Screening screening) {		return Money.ZERO;	}}

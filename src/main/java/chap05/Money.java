@@ -38,5 +38,9 @@ public class Money {
         return amount.compareTo(other.amount) >= 0;
     }
 
+    public boolean isEqualsAmount(Money money) {
+        return amount.compareTo(money.amount) == 0;
+    }
+
 
 }

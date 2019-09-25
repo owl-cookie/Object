@@ -1,0 +1,1 @@
+import chap02.Moneyimport chap10_11.{Call, Phone}trait TaxablePolicy extends BasicRatePolicy {  def taxRate: Double  override protected def calculateFee(phone: Phone): Money = {    val fee = super.calculateFee(phone)    Money.wons(0)    // fee+fee * taxRate  }}

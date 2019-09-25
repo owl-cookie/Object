@@ -1,0 +1,1 @@
+package chap10_11.composition;import chap05.Money;import chap10_11.Call;public abstract class BaseRatePolicy implements RatePolicy {	@Override	public Money calculateFee(Phone phone) {		Money result = Money.ZERO;		for (Call call : phone.getCalls()) {			result.plus(calculateFee(call));		}		return result;	}	protected abstract Money calculateFee(Call call);}

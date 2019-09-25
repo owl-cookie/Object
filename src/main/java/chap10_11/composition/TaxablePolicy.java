@@ -1,0 +1,1 @@
+package chap10_11.composition;import chap05.Money;public class TaxablePolicy extends AdditionalRatePolicy {	private RatePolicy ratePolicy;	private final Money taxRatio;	public TaxablePolicy(RatePolicy next, Money taxRatio) {		super(next);		this.taxRatio = taxRatio;	}	@Override protected Money afterCalculate(Money fee) {		return fee.minus(taxRatio);	}}

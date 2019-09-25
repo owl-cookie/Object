@@ -1,0 +1,1 @@
+package chap10_11.composition;import chap05.Money;public interface RatePolicy {	Money calculateFee(Phone phone);}
